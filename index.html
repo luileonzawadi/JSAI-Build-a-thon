@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="styles.css">
+    <title>Contoso Outdoor Company</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background: #f6f7f7;
+            padding: 32px;
+        }
+        header {
+            text-align: center;
+            margin-bottom: 24px;
+        }
+        h1 {
+            font-size: 2.7em;
+            letter-spacing: 2px;
+        }
+        .category {
+            margin-bottom: 40px;
+            background: #fff;
+            border-radius: 12px;
+            box-shadow: 0 2px 10px #0001;
+            padding: 26px 26px 18px 26px;
+        }
+        .category h2 {
+            margin-top: 0;
+        }
+        .items {
+            display: flex;
+            gap: 38px;
+            margin-top: 18px;
+            flex-wrap: wrap;
+        }
+        .item {
+            text-align: center;
+            flex: 1 1 180px;
+            min-width: 160px;
+        }
+        .item-img {
+            display: inline-block;
+            width: 80px;
+            height: 80px;
+            background: #ececec;
+            border-radius: 11px;
+            margin-bottom: 14px;
+            line-height: 80px;
+            font-size: 2em;
+            color: #777;
+        }
+        /* Responsive for small screens */
+        @media (max-width: 700px) {
+            .items {
+                flex-direction: column;
+                gap: 24px;
+            }
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Contoso Outdoor Company</h1>
+</header>
+
+<section class="category">
+    <h2>Tents</h2>
+    <p><em>Unfold adventure with Contoso's range of tents.</em></p>
+    <div class="items">
+        <div class="item">
+            <div class="item-img">⛺</div>
+            <div>TrailMaster X4 Tent<br><strong>$200</strong></div>
+        </div>
+        <div class="item">
+            <div class="item-img">🏕️</div>
+            <div>Alpine Explorer Tent<br><strong>$300</strong></div>
+        </div>
+        <div class="item">
+            <div class="item-img">🏠</div>
+            <div>Sky View 2-Person Tent<br><strong>$380</strong></div>
+        </div>
+    </div>
+</section>
+
+<section class="category">
+    <h2>Backpack</h2>
+    <p><em>Our backpack category is equipped to accompany you in every twist and turn.</em></p>
+    <div class="items">
+        <div class="item">
+            <div class="item-img">🎒</div>
+            <div>Adventurer Pro Backpack<br><strong>$60</strong></div>
+        </div>
+        <div class="item">
+            <div class="item-img">🧗</div>
+            <div>Summit Climber Backpack<br><strong>$70</strong></div>
+        </div>
+        <div class="item">
+            <div class="item-img">👜</div>
+            <div>TrailLite DayPack<br><strong>$40</strong></div>
+        </div>
+    </div>
+</section>
+
+<section class="category">
+    <h2>Hiking Clothing</h2>
+    <p><em>Step into nature with Contoso Outdoor's hiking clothes.</em></p>
+    <div class="items">
+        <div class="item">
+            <div class="item-img">🧥</div>
+            <div>Summit Breeze Jacket<br><strong>$60</strong></div>
+        </div>
+        <div class="item">
+            <div class="item-img">👖</div>
+            <div>Trail Blaze Pants<br><strong>$80</strong></div>
+        </div>
+        <div class="item">
+            <div class="item-img">🥾</div>
+            <div>TREKSTAR Boots<br><strong>$120</strong></div>
+        </div>
+    </div>
+</section>
+
+</body>
+</html>
